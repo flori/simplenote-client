@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'simplenote'
+exit Simplenote::Commands.execute(*ARGV)
